@@ -1,0 +1,6 @@
+#this is needed to make brightness keys work again after applying "OSIS Linux patch".
+
+
+into_all method code_regex If\s+\([\\]?_OSI\s+\(\"Linux\"\)\) replace_matched begin If(LOr(_OSI("Darwin"),_OSI("Linux"))) end;
+
+into_all method code_regex If\s+\([\\]?_OSI\s+\(LINX\)\) replace_matched begin If(LOr(_OSI("Darwin"),_OSI(LINX))) end;

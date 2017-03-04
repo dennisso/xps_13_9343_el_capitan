@@ -1,0 +1,29 @@
+# this is needed for correct behaviour of brightness keys in combination with IntelBacklight ad VoodooPS2Controller kexts. Brightness levels are smooth and brightness can go very, very low, almost dark. NO PWM noticeable.
+
+into method label SMEE replace_content
+begin
+        Local0 = Arg0\n
+        Local0 = GENS (0x11, Zero, Zero)\n
+        If ((\_SB.OSID () >= 0x20))\n
+        {\n
+            If ((Local0 & 0x04))\n
+            {\n
+                // Brightness up\n
+                Notify(\_SB.PCI0.LPCB.PS2K, 0x0206)\n
+                Notify(\_SB.PCI0.LPCB.PS2K, 0x0286)\n
+                EV5 (One, Zero)\n
+            }\n
+            If ((Local0 & 0x02))\n
+            {\n
+                // Brightness down\n
+               Notify(\_SB.PCI0.LPCB.PS2K, 0x0205)\n
+               Notify(\_SB.PCI0.LPCB.PS2K, 0x0285)\n
+               EV5 (0x02, Zero)\n
+            }\n
+        }\n
+        If ((Local0 & 0x08))\n
+        {\n
+            Local0 = GENS (0x1D, Zero, Zero)\n
+            EV16 (Local0, Zero)\n
+        }\n
+end;
