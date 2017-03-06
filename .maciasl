@@ -1,7 +1,7 @@
 [bat] --> Battery Patches	NullPatch.txt
 [bat] Dell XPS 13	DSDT/patches/battery/dell_xps_13_battery.txt
 [igpu] --> Intel Graphics Patches	NullPatch.txt
-[igpu] Brightness Fix Broadwell	DSDT/patches/grahpic/brightness_fix_broadwell.txt
+[igpu] Brightness Fix Broadwell	DSDT/patches/graphic/brightness_fix_broadwell.txt
 [key] --> Keyboard Patches	NullPatch.txt
 [key] Dell XPS 13 Brightness Keyboard Patch	DSDT/patches/keyboard/dell_xps_13_keyboard_patch.txt
 [key] Set OSIS to Linux	DSDT/patches/keyboard/set_osis_to_linux.txt
