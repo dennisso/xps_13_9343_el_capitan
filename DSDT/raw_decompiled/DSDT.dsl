@@ -5,7 +5,7 @@
  * 
  * Disassembling to non-symbolic legacy ASL operators
  *
- * Disassembly of DSDT.aml, Sat Mar  4 10:36:43 2017
+ * Disassembly of raw/DSDT.aml, Sun Mar  5 13:34:01 2017
  *
  * Original Table Header:
  *     Signature        "DSDT"
@@ -42,7 +42,7 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "CBX3   ", 0x01072009)
      */
     /*
      * External declarations were imported from
-     * a reference file -- refs.txt
+     * a reference file -- raw/refs.txt
      */
 
     External (_GPE.MMTB, MethodObj)    // Imported: 0 Arguments
@@ -2555,11 +2555,11 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "CBX3   ", 0x01072009)
                 If (LEqual (PM6H, One))
                 {
                     CreateBitField (BUF0, \_SB.PCI0._Y0C._RW, ECRW)  // _RW_: Read-Write Status
-                    Store (Zero, ECRW) If (PM0H)
+                    Store (Zero, ECRW (If (PM0H)
                             {
                                 CreateDWordField (BUF0, \_SB.PCI0._Y0D._LEN, F0LN)  // _LEN: Length
                                 Store (Zero, F0LN)
-                            }
+                            }))
                 }
 
                 If (LEqual (PM0H, One))

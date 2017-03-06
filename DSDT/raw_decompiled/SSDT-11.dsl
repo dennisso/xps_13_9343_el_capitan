@@ -5,7 +5,7 @@
  * 
  * Disassembling to non-symbolic legacy ASL operators
  *
- * Disassembly of SSDT-11.aml, Sat Mar  4 10:36:43 2017
+ * Disassembly of raw/SSDT-11.aml, Sun Mar  5 13:34:01 2017
  *
  * Original Table Header:
  *     Signature        "SSDT"
@@ -42,7 +42,7 @@ DefinitionBlock ("", "SSDT", 2, "SaSsdt", "SaSsdt ", 0x00003000)
      */
     /*
      * External declarations were imported from
-     * a reference file -- refs.txt
+     * a reference file -- raw/refs.txt
      */
 
     External (_GPE.MMTB, MethodObj)    // Imported: 0 Arguments

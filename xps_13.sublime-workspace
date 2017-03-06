@@ -1,0 +1,203 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"DIR",
+				"DIR"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/lkso/pg/xps_13"
+	],
+	"file_history":
+	[
+		"/Users/lkso/pg/xps_13/SLE/PS2/VoodooPS2/install.sh",
+		"/Users/lkso/pg/xps_13/SLE/PS2/VoodooPS2/com.voodoo.trackpad.plist",
+		"/Users/lkso/pg/xps_13_9343_el_capitan/SLE/PS2/VoodooPS2/install.sh",
+		"/Users/lkso/pg/xps_13_9343_el_capitan/SLE/PS2/VoodooPS2/voodoo_trackpad_settings.sh",
+		"/Users/lkso/pg/xps_13_9343_el_capitan/SLE/PS2/VoodooPS2/com.voodoo.trackpad_settings.plist",
+		"/Users/lkso/Downloads/Files-v8/Target OS -> 10.12.3",
+		"/Users/lkso/pg/xps_13_9343_el_capitan/SLE/sle.json",
+		"/Users/lkso/pg/xps_13_9343_el_capitan/.maciasl",
+		"/Users/lkso/DSDT/patches/[sys]_fix_mutex_with_non_zero_synclevel.txt",
+		"/Users/lkso/DSDT/patches/[sys]_fix_smbus.txt",
+		"/Users/lkso/DSDT/patches/[sys]_rtc_fix.txt",
+		"/Users/lkso/DSDT/patches/[sys]_os_check_fix_windows_8.txt",
+		"/Users/lkso/DSDT/patches/[sys]_irq_fix.txt",
+		"/Users/lkso/DSDT/patches/[sys]_hpet_fix.txt",
+		"/Users/lkso/DSDT/patches/[sys]_fix_wak_arg0_v2.txt",
+		"/Users/lkso/DSDT/patches/[bat]_dell_xps_13_battery",
+		"/Users/lkso/DSDT/patches/[igpu]_brightness_fix_broadwell",
+		"/Users/lkso/DSDT/patches/[sys]_set_osis_to_linux",
+		"/Users/lkso/DSDT/patches/[sys]_dell_xps_13_keyboard_patch",
+		"/Volumes/EFI/EFI/CLOVER/config.plist"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sudo",
+			"DSTS",
+			" -> "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "xps_13.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 342.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,15 +1,15 @@
 [bat] --> Battery Patches	NullPatch.txt
-[bat] Dell XPS 13	DSDT/patches/[bat]_dell_xps_13_battery.txt
+[bat] Dell XPS 13	DSDT/patches/battery/dell_xps_13_battery.txt
 [igpu] --> Intel Graphics Patches	NullPatch.txt
-[igpu] Brightness Fix Broadwell	DSDT/patches/[igpu]_brightness_fix_broadwell.txt
+[igpu] Brightness Fix Broadwell	DSDT/patches/grahpic/brightness_fix_broadwell.txt
 [key] --> Keyboard Patches	NullPatch.txt
-[key] Dell XPS 13 Brightness Keyboard Patch	DSDT/patches/[sys]_dell_xps_13_keyboard_patch.txt
-[key] Set OSIS to Linux	DSDT/patches/[sys]_set_osis_to_linux.txt
+[key] Dell XPS 13 Brightness Keyboard Patch	DSDT/patches/keyboard/dell_xps_13_keyboard_patch.txt
+[key] Set OSIS to Linux	DSDT/patches/keyboard/set_osis_to_linux.txt
 [sys] --> System Patches	NullPatch.txt
-[sys] Fix _WAK Arg0 v2	DSDT/patches/[sys]_fix_wak_arg0_v2.txt
-[sys] Fix Mutex with non-zero SyncLevel	DSDT/patches/[sys]_fix_mutex_with_non_zero_synclevel.txt
-[sys] HPET Fix	DSDT/patches/[sys]_hpet_fix.txt
-[sys] IRQ Fix	DSDT/patches/[sys]_irq_fix.txt
-[sys] OS Check Fix	DSDT/patches/[sys]_os_check_fix_windows_8.txt
-[sys] RTC Fix	DSDT/patches/[sys]_rtc_fix.txt
-[sys] SMBUS Fix	DSDT/patches/[sys]_fix_smbus.txt
+[sys] Fix _WAK Arg0 v2	DSDT/patches/system/fix_wak_arg0_v2.txt
+[sys] Fix Mutex with non-zero SyncLevel	DSDT/patches/system/fix_mutex_with_non_zero_synclevel.txt
+[sys] HPET Fix	DSDT/patches/system/hpet_fix.txt
+[sys] IRQ Fix	DSDT/patches/system/irq_fix.txt
+[sys] OS Check Fix	DSDT/patches/system/os_check_fix_windows_8.txt
+[sys] RTC Fix	DSDT/patches/system/rtc_fix.txt
+[sys] SMBUS Fix	DSDT/patches/system/fix_smbus.txt

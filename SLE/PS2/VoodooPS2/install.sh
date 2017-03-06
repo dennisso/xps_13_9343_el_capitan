@@ -1,0 +1,11 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+sudo cp -- "$DIR/ioio" "/usr/bin/."
+sudo chmod 755 "/usr/bin/ioio"
+sudo chown root:wheel "/usr/bin/ioio"
+sudo cp -- "$DIR/voodoo_trackpad_settings.sh" "/usr/local/bin/."
+sudo cp -- "$DIR/com.voodoo.trackpad.plist" "/Library/LaunchDaemons/."
+sudo chmod 755 "/usr/local/bin/voodoo_trackpad_settings.sh"
+sudo chown root:wheel "/usr/local/bin/voodoo_trackpad_settings.sh"
+sudo chmod 755 "/Library/LaunchDaemons/com.voodoo.trackpad.plist"
+sudo chown root:wheel "/Library/LaunchDaemons/com.voodoo.trackpad.plist"
